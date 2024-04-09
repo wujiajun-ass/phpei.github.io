@@ -1,0 +1,18 @@
+#score {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    #clickBtn {
+      background-color: darkred;
+      color: black;
+      font-weight: bold;
+      border: 2px solid black;
+      padding: 10px 20px;
+      font-size: 18px;
+      box-shadow: 0 0 10px black;
+    }
+
+body {
+    background-color: darkred;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lightly-HTML-Project</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>击杀同学</title>
+</head>
+<body>
+      <h1>点击开始猎杀同学</h1>
+  <div id="score">畜生死亡数量: <span id="count">0</span></div>
+  <button id="clickBtn">大开杀戒</button>
+  <h1>排行榜</h1>
+  <p>第1名 击杀了34982834434324324324253个畜生</P>
+<p>第2名 击杀了34982834334545633243242个畜生</P>
+<p>第3名 击杀了3498283433453463324553个畜生</P>
+<script>
+var clickBtn = document.getElementById('clickBtn');
+var score = document.getElementById('count');
+
+// 初始化分数
+var count = 0;
+
+// 点击按钮时增加分数
+clickBtn.addEventListener('click', function() {
+  count++;
+  score.innerText = count;
+});</script>
+</body>
+</html>
